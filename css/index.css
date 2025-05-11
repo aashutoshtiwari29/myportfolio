@@ -243,6 +243,10 @@ footer a:hover {
         height: auto;
     }
 
+    .dp {
+        margin: 0;
+    }
+
     nav {
         flex-direction:row;
         position: static;
