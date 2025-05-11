@@ -244,7 +244,7 @@ footer a:hover {
     }
 
     .dp {
-        margin: 0;
+        margin: 5px 0 0 0;
     }
 
     nav {
@@ -280,7 +280,7 @@ footer a:hover {
 @media (max-width: 600px) {
 
     nav a {
-        padding: 0;
+        padding: auto;
     }
     
     .links-section a {
