@@ -252,10 +252,6 @@ footer a:hover {
         position: static;
     }
 
-    nav a {
-        padding: 0;
-    }
-
     h1 {
         margin: 10px 0 10px 0;
         border-left: 1px solid rgb(130, 130, 130);
@@ -278,6 +274,12 @@ footer a:hover {
 
     .header-border {
         margin-top: 130px;
+    }
+}
+
+@media: (max-width: 800px) {
+    nav a {
+        padding: 0;
     }
 }
 
