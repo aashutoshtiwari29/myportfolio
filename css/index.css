@@ -278,6 +278,11 @@ footer a:hover {
 }
 
 @media (max-width: 600px) {
+
+    nav a {
+        padding: auto;
+    }
+    
     .links-section a {
         width: 90%;
         min-width: 220px;
