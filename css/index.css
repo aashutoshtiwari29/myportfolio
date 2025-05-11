@@ -13,6 +13,7 @@ body {
     flex-direction: row;
     align-items: center;
     box-shadow: 0 1px 40px lightslategray;
+    white-space: nowrap;
     top: 0;
     right: 0;
     left: 0;
