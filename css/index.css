@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: linear-gradient(to right, lightgray, lightgoldenrodyellow, lightgray);
 }
@@ -109,6 +113,11 @@ body {
             cursor: pointer;
             transition: 0.11s;
         }
+
+        nav a[aria-current="page"] {
+            color: steelblue;
+            text-decoration: underline;
+        }
     
             nav a:hover {
                 position: relative;
@@ -131,6 +140,28 @@ body {
     }
 
     /* Main Page*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    background-color: #555;
+    opacity: 1;
+    transform: scale(1.1);
+}
     
 .main {
     display: flex;
@@ -156,15 +187,15 @@ body {
         }
 
         h4 {
-            font-size: 1.563rem;
-            font-family: sans-serif;
+            font-size: 1.3rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 700;
             margin: 10px 0 10px 0;
         }
 
         h5 {
-            font-size: 1.25rem;
-            font-family: sans-serif;
+            font-size: 1.2rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 500;
             margin: 10px 0 10px 0;
         }       
